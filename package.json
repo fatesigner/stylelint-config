@@ -1,5 +1,5 @@
 {
-  "name": "@forgleaner/stylelint-config",
+  "name": "@fatesigner/stylelint-config",
   "version": "0.0.0",
   "description": "The recommended shareable config for stylelint.",
   "license": "MIT",
@@ -9,16 +9,16 @@
   ],
   "author": {
     "name": "Jeremy Tang",
-    "email": "forgleaner@gmail.com"
+    "email": "fatesigner@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/forgleaner/stylelint-config.git"
+    "url": "git+https://github.com/fatesigner/stylelint-config.git"
   },
   "bugs": {
-    "url": "https://github.com/forgleaner/stylelint-config/issues"
+    "url": "https://github.com/fatesigner/stylelint-config/issues"
   },
-  "homepage": "https://github.com/forgleaner/stylelint-config#readme",
+  "homepage": "https://github.com/fatesigner/stylelint-config#readme",
   "main": "index.js",
   "module": "index.js",
   "scripts": {
@@ -38,14 +38,14 @@
   "devDependencies": {
     "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
-    "@forgleaner/cz-customizable": "6.3.0",
+    "@fatesigner/cz-customizable": "6.3.0",
     "@semantic-release/changelog": "5.0.0",
     "@semantic-release/git": "9.0.0",
     "@types/gulp": "4.0.6",
     "@types/node": "13.7.4",
+    "commitizen": "4.0.3",
     "gulp": "4.0.2",
     "husky": "4.2.3",
-    "lint-staged": "10.0.7",
     "require-dir": "1.2.0",
     "rimraf": "3.0.2",
     "semantic-release": "17.0.4",
@@ -53,7 +53,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/@forgleaner/cz-customizable"
+      "path": "./node_modules/@fatesigner/cz-customizable"
     }
   }
 }
