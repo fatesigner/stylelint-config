@@ -6,7 +6,7 @@
 [![npm][npm-image]][npm-url]
 [![semantic][semantic-image]][semantic-url]
 
-[build-image]: https://travis-ci.com/fatesigner/stylelint-config.svg?color=green&branch=master
+[build-image]: https://travis-ci.com/fatesigner/stylelint-config.svg?color=green&token=i21P7stb8bZPNjZakvsi&branch=master
 [build-url]: https://travis-ci.com/fatesigner/stylelint-config
 [commitizen-image]: https://img.shields.io/badge/commitizen-friendly-green.svg
 [commitizen-url]: http://commitizen.github.io/cz-cli/
@@ -24,6 +24,9 @@ stylelint通用规则
 ## Install
 ```bash
 npm i @fatesigner/stylelint-config -D
+
+// install peerDependencies
+npm i stylelint stylelint-config-css-modules stylelint-config-recess-order stylelint-config-standard stylelint-order -D
 ```
 
 ## 使用
