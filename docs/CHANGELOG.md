@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/fatesigner/stylelint-config/compare/v1.1.0...v1.2.0) (2021-06-18)
+
+
+### Features
+
+* add rules ([591218c](https://github.com/fatesigner/stylelint-config/commit/591218cc95741d7ae9111e33cd109ecb83f1d6b5))
+
 # [1.1.0](https://github.com/fatesigner/stylelint-config/compare/v1.0.0...v1.1.0) (2021-06-18)
 
 
