@@ -13,7 +13,7 @@ module.exports = {
     ],
     'declaration-block-trailing-semicolon': null,
     'declaration-colon-newline-after': null,
-    'property-no-unknown': [false, { ignoreProperties: [] }],
+    'property-no-unknown': [true, { ignoreProperties: [] }],
     'selector-pseudo-element-no-unknown': [true, { ignorePseudoElements: ['ng-deep', 'v-deep'] }],
     'selector-pseudo-class-case': 'lower',
     'selector-pseudo-class-no-unknown': [true, { ignorePseudoClasses: ['deep', 'global'] }],
