@@ -9,7 +9,23 @@ module.exports = {
     indentation: 2,
     'at-rule-no-unknown': [
       true,
-      { ignoreAtRules: ['tailwind', 'mixin', 'extend', 'content', 'function', 'if', 'each', 'include'] }
+      {
+        ignoreAtRules: [
+          'tailwind',
+          'apply',
+          'layer',
+          'variants',
+          'responsive',
+          'screen',
+          'mixin',
+          'extend',
+          'content',
+          'function',
+          'if',
+          'each',
+          'include'
+        ]
+      }
     ],
     'declaration-block-trailing-semicolon': null,
     'declaration-colon-newline-after': null,
@@ -18,7 +34,7 @@ module.exports = {
     'selector-pseudo-class-case': 'lower',
     'selector-pseudo-class-no-unknown': [true, { ignorePseudoClasses: ['deep', 'global'] }],
     'selector-type-no-unknown': [true, { ignoreTypes: [/^uni-/] }],
-    'unit-no-unknown': [true, { ignoreUnits: ['rpx'] }],
+    'unit-no-unknown': [true, { ignoreUnits: ['rpx', 'upx'] }],
     'value-list-comma-newline-after': null
   }
 };
