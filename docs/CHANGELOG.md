@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/fatesigner/stylelint-config/compare/v1.2.1...v1.3.0) (2021-07-06)
+
+
+### Features
+
+* update 'at-rule-no-unknown' and 'unit-no-unknown' to support tailwindcss ([f3271ea](https://github.com/fatesigner/stylelint-config/commit/f3271ea7278e2b33531cfa640a8dde7c60e13695))
+* update husky version to 7.0 ([af4bf9e](https://github.com/fatesigner/stylelint-config/commit/af4bf9e5cc982e8d5a4bccf8157c6f85157d88df))
+
 ## [1.2.1](https://github.com/fatesigner/stylelint-config/compare/v1.2.0...v1.2.1) (2021-06-19)
 
 
